@@ -1,5 +1,5 @@
 # Alumini-Management-System
-Prepared by- 
+
 Garvit Goyal(130101069)- https://github.com/garvitgoyal1995/Alumini-Management-System
 Dheeraj Singh(130101063)- https://github.com/dheerajsingh1994/Alumini-Management-System
 
