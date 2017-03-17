@@ -1,0 +1,34 @@
+create table Alumni_AcademicDetails(LoginName varchar2(40),YearofPassedout number(30),YearofJoining number(30)profession varchar2(40),RollNo varchar2(40));
+
+create table Alumni_Events(EventID number(30) primary key,EventName varchar2(40),EventDate date, EventTime varchar2(40),Venue varchar2(40),Description varchar2(40),Status varchar2(40));
+
+create table Alumni_Messages(messageid number(30) primary key,Fromname varchar2(40),Toname varchar2(40),SendDate date,Subject varchar2(40),Message varchar2(40),SenderStatus number(40),ReceiverStatus number(30));
+
+create table Alumni_Vacancies(VacancyID number(30) primary key,CompanyName varchar2(40),CompanyProfile varchar2(40),VacancyPosition varchar2(40),JobDescription varchar2(40),Category varchar2(40),Location varchar2(40),DesiredProfile varchar2(40),DesiredExp varchar2(40),CreatedDate date,ExpiryDate dateContactPerson varchar2(40),Designation varchar2(40),PhoneNo varchar2(40),Email varchar2(40));
+
+create table login_audit(loginid varchar2(40),logindate date,login_desc varchar2(40));
+
+create table login_details(loginname varchar2(40) primary key,password varchar2(40),first_name varchar2(40),last_name varchar2(40),logintype varchar2(40),login_status number(30),reg_date date,squestionid number(30),sanswer varchar2(40),firstlogin number(30),passmodifieddate date);
+
+create table login_profile(loginid varchar2(40),birthdate date,city varchar2(40),state varchar2(40),country varchar2(40),locale varchar2(40),profilemodifieddate date);
+
+create table question_base
+(
+question_id number primary key,
+question_detail varchar2(70)
+);
+insert into question_base values(1,'What is your favorite pastime?');
+insert into question_base values(2,'Who was your childhood hero?');
+insert into question_base values(3,'What was the name of your first school?');
+insert into question_base values(4,'Where did you meet your spouse?');
+insert into question_base values(5,'What is your favorite sports team?');
+insert into question_base values(6,'What is your fathers middle name?');
+insert into question_base values(7,'What make was your first car or bike?');
+insert into question_base values(8,'What make was your first car or bike?');
+insert into question_base values(9,'What is your pets name?');
+
+
+================================================================
+
+insert into login_details values('Admin','Admin','abc','xyz','Admin',1,'03-mar-2009',1,'hello',23,'23-mar-2009');
+
