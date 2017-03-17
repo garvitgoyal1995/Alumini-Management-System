@@ -1,7 +1,7 @@
 # Alumini-Management-System
 Prepared by- 
-1. Garvit Goyal(130101069)
-2. Dheeraj Singh(130101063)
+Garvit Goyal(130101069)- https://github.com/garvitgoyal1995/Alumini-Management-System
+Dheeraj Singh(130101063)- https://github.com/dheerajsingh1994/Alumini-Management-System
 
 OBJECTIVE
 	The aim of this project is to build a system that will be able to manage alumni data of a college and provide easy access to the same. Alumni of a college generally stay in touch with their immediate friends but find it hard to stay connected with other college mates. Contact between alumni can be used to forge business connections and to gain references or insight in a new field.
