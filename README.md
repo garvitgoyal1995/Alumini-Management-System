@@ -28,13 +28,10 @@ Student: The student module can be used to browse through the site and access al
 Alumni: An alumnus of the college will be able to access other alumni information and also will be able to view all their contact information (unless it is made private). An alumnus can post any information they deem relevant on the site.
 
 Software Requirements
-•	Windows XP
-•	Apache Tomcat Web Server
-•	Oracle
+•	Microsoft Virtual Studio 17
 
 Technology Used
-•	Java
-•	J2EE
+•	ASP .NET
 
 Hardware Requirements
 •	Hard Disk – 2 GB
